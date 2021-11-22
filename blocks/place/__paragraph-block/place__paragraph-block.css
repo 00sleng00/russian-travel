@@ -1,0 +1,6 @@
+@media screen and (max-width: 320px) {
+   .place__paragraph-block {
+      margin: 0 16px 0;
+      width: 288px;
+   }
+}
