@@ -6,6 +6,14 @@
    width: 176px;
    height: 52px;
    margin: 0;
+   position: relative;
+   left: 48px;
+}
+
+@media screen and (max-width: 320px) {
+   .header__logo {
+      left: 24px;
+   }
 }
 
 @media screen and (max-width: 320px) {

@@ -1,12 +1,12 @@
 .footer {
    padding: 92px 0 24px;
    margin: 0 auto;
-   width: 1184px;
+   width: 100%;
    display: flex;
    justify-content: space-between;
 }
 
-@media screen and (max-width: 1024px) {
+/*@media screen and (max-width: 1024px) {
    .footer {
       width: 928px;
    }
@@ -17,7 +17,7 @@
       width: 720px;
       padding: 88px 0 24px;
    }
-}
+}*/
 
 @media screen and (max-width: 320px) {
    .footer {

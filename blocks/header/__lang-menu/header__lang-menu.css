@@ -3,4 +3,12 @@
    padding: 0;
    display: flex;
    align-items: flex-end;
+   position: relative;
+   right: 48px;
+}
+
+@media screen and (max-width: 768px) {
+   .header__lang-menu {
+      right: 24px;
+   }
 }

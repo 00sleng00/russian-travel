@@ -4,6 +4,13 @@
    grid-area: image;
 }
 
+@media screen and (max-widht: 1024) {
+   .place__image {
+      width: 440px;
+      height: 440px;
+   }
+}
+
 @media screen and (max-width: 768px) {
    .place__image {
       width: 340px;

@@ -1,6 +1,14 @@
 .footer__block {
    margin: 0;
    padding: 0;
+   position: relative;
+   left: 48px;
+}
+
+@media screen and (max-width: 768px) {
+   .footer__block {
+      left: 24px;
+   }
 }
 
 @media screen and (max-width: 320px) {
@@ -8,5 +16,6 @@
       display: flex;
       flex-direction: column;
       flex-wrap: wrap;
+      left: 0;
    }
 }

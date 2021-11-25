@@ -1,18 +1,22 @@
 .intro {
-   width: 690px;
-   margin-top: 92px;
+   width: 62%;
+   margin: 92px 0 0;
+}
+
+@media screen and (max-width: 1024px) {
+
 }
 
 @media screen and (max-width: 768px) {
    .intro {
-      margin: 82px auto 0;
+      margin: 88px auto 0;
+      width: 94%;
    }
 }
 
 @media screen and (max-width: 320px) {
    .intro {
-      width: 288px;
-      margin: 64px auto 0;
+      width: 78%;
+      margin: 40px auto 0;
    }
 }
-

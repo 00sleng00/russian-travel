@@ -5,7 +5,7 @@
    align-items: center;
    flex-direction: column;
    background-image: url(../../../images/cover-trains.jpg);
-   background-size: contain;
+   background-size: cover;
    position: relative;
    text-decoration: none;
    color: #fff;

@@ -2,6 +2,13 @@
    display: grid;
    gap: 80px;
    margin: 0 auto;
+   width: 78%;
+}
+
+@media screen and (max-width: 1024px) {
+   .places {
+      width: 95%;
+   }
 }
 
 @media screen and (max-width: 768px) {
