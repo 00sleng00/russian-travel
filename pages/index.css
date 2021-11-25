@@ -1,11 +1,5 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
-@import url(../vendor/fonts/Inter-Black.woff);
-@import url(../vendor/fonts/Inter-Black.woff2);
-@import url(../vendor/fonts/Inter-Bold.woff);
-@import url(../vendor/fonts/Inter-Bold.woff2);
-@import url(../vendor/fonts/Inter-Regular.woff);
-@import url(../vendor/fonts/Inter-Regular.woff2);
 @import url(../blocks/indent/indent.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
