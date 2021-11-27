@@ -4,15 +4,8 @@
    display: flex;
 }
 
-@media screen and (max-width: 768px) {
-   .footer__block {
-      
-   }
-}
-
 @media screen and (max-width: 320px) {
    .footer__block {
-      display: flex;
       flex-direction: column;
       flex-wrap: wrap;
    }

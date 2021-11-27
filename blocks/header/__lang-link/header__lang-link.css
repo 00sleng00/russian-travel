@@ -5,18 +5,22 @@
    line-height: 117%;
    font-weight: normal;
    transition: 0.3s;
+   text-decoration: none;
+}
+
+.header__lang-link:hover {
+   opacity: 0.8;
 }
 
 .header__lang-link:last-of-type {
    margin-right: 0;
 }
 
-@media screen and (max-width: 576px){
-   .header__lang-link{
+@media screen and (max-width: 576px) {
+   .header__lang-link {
       font-size: 20px;
    }
 }
-
 
 @media screen and (max-width: 320px) {
    .header__lang-link {
