@@ -12,10 +12,10 @@
 <body class="page">
    <header class="header">
       <div class="header__logo"></div>
-      <nav class="header__lang-menu">
-         <a href="#" class="header__lang-link">Ru</a>
-         <a href="#" class="header__lang-link">En</a>
-      </nav>
+      <div class="header__lang-menu">
+         <a href="#" class="header__lang-link header__lang-link_active">Ru</a>
+         <a href="#" class="header__lang-link header__lang-link_active">En</a>
+      </div>
    </header>
 
    <main class="content">
@@ -28,7 +28,7 @@
          </figure>
 
          <section class="intro">
-            <h2 class="intro__title">Чего мы там не видели?</h2>
+            <h2 class="intro__title">Чего мы&nbsp;там не&nbsp;видели?</h2>
             <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют
                провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая
                вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все
@@ -39,11 +39,11 @@
                километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.
             </p>
             <ul class="intro__lists">
-               <li class="intro__list">Часовых поясов 11</li>
-               <li class="intro__list">Объектов природного наследия ЮНЕСКО 12</li>
-               <li class="intro__list">Объектов культурного наследия ЮНЕСКО 16</li>
-               <li class="intro__list">Природных заповедников 105</li>
-               <li class="intro__list">Аэропортов 241</li>
+               <li class="intro__list">Часовых поясов <span class="intro__bold"> 11</span></li>
+               <li class="intro__list">Объектов природного наследия ЮНЕСКО<span class="intro__bold"> 12</span></li>
+               <li class="intro__list">Объектов культурного наследия ЮНЕСКО<span class="intro__bold"> 16</span></li>
+               <li class="intro__list">Природных заповедников <span class="intro__bold"> 105</span></li>
+               <li class="intro__list">Аэропортов <span class="intro__bold"> 241</span></li>
             </ul>
          </section>
       </section>
@@ -81,14 +81,10 @@
 
 
             <img src="./images/place-kosa.jpg" alt="Фото" class="place__image">
-            <ul class="place__website">
-               <li class="place__links">
-                  <p class="place__url-heading">URL</p>
-               </li>
-               <li class="place__links"><a href="http://park-kosa.ru" target="blank"
-                     class="place__link">park-kosa.ru</a>
-               </li>
-            </ul>
+            <div class="place__website">
+               <p class="place__url-heading">URL</p>
+               <a href="http://park-kosa.ru" target="blank" class="place__link">park-kosa.ru</a>
+            </div>
          </div>
          <div class="place">
             <h2 class="place__title">Кольский</h2>
@@ -107,14 +103,13 @@
             </div>
 
             <img src="./images/place-kolsky.jpg" alt="Фото" class="place__image">
-            <ul class="place__website">
-               <li class="place__links">
-                  <p class="place__url-heading">URL</p>
-               </li>
-               <li class="place__links"><a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
-                     target="blank" class="place__link">National Geographic</a></li>
-            </ul>
+            <div class="place__website">
+               <p class="place__url-heading">URL</p>
+               <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="blank"
+                  class="place__link">National Geographic</a>
+            </div>
          </div>
+
          <div class="place">
             <h2 class="place__title">Алтай</h2>
             <div class="place__paragraph-block">
@@ -130,13 +125,11 @@
             </div>
 
             <img src="./images/place-altai.jpg" alt="Фото" class="place__image">
-            <ul class="place__website">
-               <li class="place__links">
-                  <p class="place__url-heading">URL</p>
-               </li>
-               <li class="place__links"><a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
-                     target="blank" class="place__link">Facebook</a></li>
-            </ul>
+            <div class="place__website">
+               <p class="place__url-heading">URL</p>
+               <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" target="blank"
+                  class="place__link">Facebook</a>
+            </div>
          </div>
          <div class="place">
             <h2 class="place__title">Зимний Байкал</h2>
@@ -152,13 +145,10 @@
             </div>
 
             <img src="./images/place-winter-baikal.jpg" alt="Фото" class="place__image">
-            <ul class="place__website">
-               <li class="place__links">
-                  <p class="place__url-heading">URL</p>
-               </li>
-               <li class="place__links"><a href="https://vk.com/baikalmile" target="blank"
-                     class="place__link">https://vk.com/baikalmile</a></li>
-            </ul>
+            <div class="place__website">
+               <p class="place__url-heading">URL</p>
+               <a href="https://vk.com/baikalmile" target="blank" class="place__link">https://vk.com/baikalmile</a>
+            </div>
          </div>
          <div class="place">
             <h2 class="place__title">Карелия</h2>
@@ -172,19 +162,15 @@
             </div>
 
             <img src="./images/place-karelia.jpg" alt="Фото" class="place__image">
-            <ul class="place__website">
-               <li class="place__links">
-                  <p class="place__url-heading">URL</p>
-               </li>
-               <li class="place__links"><a href="http://vodlozero.ru" target="blank"
-                     class="place__link">http://vodlozero.ru/</a></li>
-            </ul>
-         </div>
+            <div class="place__website">
+               <p class="place__url-heading">URL</p>
+               <a href="http://vodlozero.ru" target="blank" class="place__link">http://vodlozero.ru/</a>
+            </div>
       </section>
 
       <section class="cover">
          <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="blank" class="cover__link">
-            <h2 class="cover__title">До Байкала «на собаках»</h2>
+            <h2 class="cover__title">До&nbsp;Байкала &laquo;на&nbsp;собаках&raquo;</h2>
             <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
                электричках.</p>
          </a>

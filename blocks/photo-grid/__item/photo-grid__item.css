@@ -3,3 +3,8 @@
    height: 100%;
 }
 
+@media screen and (max-width: 320px) {
+   .photo-grid__item {
+      height: 216px;
+   }
+}

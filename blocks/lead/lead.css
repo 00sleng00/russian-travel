@@ -5,13 +5,24 @@
 
 @media screen and (max-width: 1024px) {
    .lead {
-      width: 95%;
+      width: 91%;
    }
 }
 
 @media screen and (max-width: 768px) {
    .lead {
       width: 100%;
+   }
+}
+
+@media screen and (max-width: 576px) {
+   .lead {
+      width: ;
+   }
+}
+
+@media screen and (max-width: 425px) {
+   .lead {
    }
 }
 

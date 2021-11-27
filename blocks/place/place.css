@@ -5,12 +5,13 @@
       "title  website"
       "image paragraph";
    gap: 48px 40px;
-   width: 100%;
+   width: 99%;
 }
 
 @media screen and (max-width: 1024px) {
    .place {
       gap: 48px 32px;
+      grid-template-columns: 442px 1fr;
    }
 }
 
@@ -18,6 +19,21 @@
    .place {
       grid-template-columns: 340px 1fr;
       gap: 48px 28px;
+   }
+}
+
+@media screen and (max-width: 576px) {
+   .place {
+      grid-template-rows: auto 1fr;
+      grid-template-columns: none;
+      grid-template-areas:
+         "title"
+         "website"
+         "image"
+         "paragraph";
+      width: 100%;
+      height: 100%;
+      gap: 32px;
    }
 }
 

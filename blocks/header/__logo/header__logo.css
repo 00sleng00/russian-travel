@@ -6,13 +6,13 @@
    width: 176px;
    height: 52px;
    margin: 0;
-   position: relative;
-   left: 48px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 576px) {
    .header__logo {
-      left: 24px;
+      width: 152px;
+      height: 50px;
+      background-size: 100% 100%;
    }
 }
 
@@ -21,6 +21,5 @@
       width: 142px;
       height: 42px;
       background-size: 100% 100%;
-      left: 16px;
    }
 }

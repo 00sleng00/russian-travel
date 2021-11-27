@@ -1,14 +1,30 @@
-
 .content {
    display: grid;
    gap: 92px;
    margin-top: 56px;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1024px) {
+   .content {
+      margin-top: 48px;
+   }
+}
+
+@media screen and (max-width: 768px) {
    .content {
       gap: 88px;
-      margin-top: 48px;
+   }
+}
+
+@media screen and (max-width: 576px) {
+   .content {
+      gap: 84px;
+      margin-top: 40px;
+   }
+}
+
+@media screen and (max-width: 425px) {
+   .content {
    }
 }
 

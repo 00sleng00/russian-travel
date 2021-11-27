@@ -3,18 +3,16 @@
    font-size: 14px;
    line-height: 114%;
    margin: 0;
-   position: relative;
-   right: 48px;
 }
 
 @media screen and (max-width: 768px) {
    .footer__copyright {
-      right: 24px;
+      font-size: 1.82vw;
    }
 }
 
 @media screen and (max-width: 320px) {
    .footer__copyright {
-      left: 0;
+      font-size: 14px;
    }
 }

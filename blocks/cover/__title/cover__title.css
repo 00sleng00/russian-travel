@@ -8,6 +8,18 @@
    z-index: 1;
 }
 
+@media screen and (max-width: 768px) {
+   .cover__title {
+      font-size: 9.38vw;
+   }
+}
+
+@media screen and (max-width: 576px) {
+   .cover__title {
+      font-size: 43px;
+   }
+}
+
 @media screen and (max-width: 320px) {
    .cover__title {
       font-size: 32px;

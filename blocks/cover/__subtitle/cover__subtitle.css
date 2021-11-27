@@ -5,6 +5,18 @@
    max-width: 352px;
    text-align: center;
    z-index: 1;
+   margin: 32px 0 0;
+}
+
+@media screen and (max-width: 768px){
+   .cover__subtitle{
+      font-size: 2.34vw;
+   }
+}
+@media screen and (max-width: 576px){
+   .cover__subtitle{
+      font-size: 14px;
+   }
 }
 
 @media screen and (max-width: 320px) {
@@ -12,5 +24,6 @@
       font-size: 14px;
       line-height: 114%;
       width: 267px;
+      margin: 16px 0 0;
    }
 }
