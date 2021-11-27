@@ -15,17 +15,6 @@
    }
 }
 
-@media screen and (max-width: 576px) {
-   .lead {
-      width: ;
-   }
-}
-
-@media screen and (max-width: 425px) {
-   .lead {
-   }
-}
-
 @media screen and (max-width: 320px) {
    .lead {
       width: 320px;
